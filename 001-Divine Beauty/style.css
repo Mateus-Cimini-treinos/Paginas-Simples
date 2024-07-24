@@ -114,3 +114,44 @@ h1, h2 {
     margin-top: 15px;
     margin-left: 28px;
 }
+
+footer{
+    background-color: rgba(43, 255, 1, 0.308);
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+  }
+  footer img,
+  footer .titulo{
+    display: block;
+    font-weight:600;
+    margin-bottom: 24px;
+  
+  }
+  footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    
+  }
+  
+  footer p a {
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+  }
+  
+  #copyright{
+    background-color: #263138;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px;
+  }
+  
+  #copyright a {
+    color: var(--primary-color);
+  }
