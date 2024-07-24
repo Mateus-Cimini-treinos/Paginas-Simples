@@ -88,9 +88,10 @@ h1, h2 {
 }
 
 #Pedicure {
+    position: relative;
     padding: 64px 80px;
    text-align: center;
-   bottom: 80px;
+   bottom: 100px;
 }
 
 #Pedicure img{
@@ -98,4 +99,18 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#Hairdresser {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 64px ;
+    bottom: 50px;
+}
+
+#Hairdresser li{
+    margin-bottom: 16px;
+    margin-top: 15px;
+    margin-left: 28px;
 }
