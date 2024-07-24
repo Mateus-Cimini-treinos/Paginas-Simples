@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", "sans-serif";
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #04cc6f;
+}
+
+body{
+    color: #263131;
+}
+
+header{
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#iconheader{
+    display: flex;
+    position: relative;
+    right: 60px;
+}
+
+
+header nav a{
+    color: #ffffff;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
